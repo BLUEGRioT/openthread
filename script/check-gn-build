@@ -36,9 +36,9 @@ set -x
 
 main()
 {
-    gn gen --check gn-out
+    gn gen gn-out
     ninja -C gn-out
-    test -f gn-out/obj/src/core/libopenthread-ftd.a
+    test -f gn-out/obj/lib-ot-core.a
 }
 
 main "$@"
