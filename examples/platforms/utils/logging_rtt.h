@@ -76,7 +76,7 @@ extern "C" {
  *
  */
 #ifndef LOG_RTT_BUFFER_SIZE
-#define LOG_RTT_BUFFER_SIZE 256
+#define LOG_RTT_BUFFER_SIZE 2048
 #endif
 
 /**
@@ -97,7 +97,7 @@ extern "C" {
  *
  */
 #ifndef LOG_PARSE_BUFFER_SIZE
-#define LOG_PARSE_BUFFER_SIZE 128
+#define LOG_PARSE_BUFFER_SIZE 256
 #endif
 
 /**
